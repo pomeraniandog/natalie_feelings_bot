@@ -23,6 +23,10 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("Seems like it's been a long day. Why don't you sleep?")
       counter += 1
+    if each_word == "hopeless":
+      feelings_list.append("hopeless")
+      encouragement_list.append("There is hope. Don't give up!")
+      counter += 1
 
   if counter == 0:
     
